@@ -1,14 +1,12 @@
-# book.rb
-# Add you Book class here
 
 #book.rb
 
 
 
 class Book 
-#   attr_accessor
-# :author, :page_count, :genre
-#   attr_reader :title
+  attr_accessor
+:author, :page_count, :genre
+  attr_reader :title
   
   def 
 initialize (title)
@@ -19,7 +17,7 @@ initialize (title)
     @title
   end
   
-  def author=(author)
+  def author = (author)
     @author = author 
   end
   
@@ -27,7 +25,7 @@ initialize (title)
     @author
   end
   
-  def page_count=(num)
+  def page_count = (num)
     @page_count = num
   end
   
@@ -35,13 +33,10 @@ initialize (title)
     @page_count
   end
   
-  def genre=(genre)
+  def genre = (genre)
     @genre = genre 
   end
   
-  def genre 
-    @genre
-  end  
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
